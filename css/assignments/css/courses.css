@@ -1,0 +1,48 @@
+
+
+.programs {
+    background-color:rgb(26, 46, 76) ;
+    border: 0cap;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: solid;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 50px;
+    
+    
+}
+#para1 {
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.course {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    padding-bottom: 150px;
+    cursor: pointer;
+   
+    
+}
+
+
+.img-python, .img-php, .img-angular {
+    width: 150px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(26, 46, 76);
+    transition: all 1s ease-in-out;
+    
+}
+

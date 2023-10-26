@@ -1,0 +1,91 @@
+.margin {
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.login {
+    background-color: rgb(26, 46, 76);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 2px;
+    cursor: pointer;
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 10px grey;
+
+}
+
+.register {
+    background-color: rgb(26, 46, 76);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 2px;
+    cursor: pointer;
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 10px grey;
+
+}
+
+.navigation {
+    background-color: rgb(26, 46, 76);
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   
+
+}
+
+.home,
+.courses,
+.contact {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px 50px;
+    text-decoration: dashed;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+}
+
+.footer {
+    position: fixed;
+    background-color: rgb(26, 46, 76);;
+    bottom: 0;
+    width: 97%;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    border: 0 solid white;
+
+
+
+}
