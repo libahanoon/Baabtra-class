@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.container{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*main axis*/
+    height: 400px;
+    align-items: center; /*cross axis*/
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+}
+
+.item1,.item2,.item3{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.item1{
+    order: 3;
+}
+
+.item2{
+    order: 2;
+}
+.item3{
+    order: 1;
+}

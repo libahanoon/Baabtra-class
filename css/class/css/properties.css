@@ -1,0 +1,41 @@
+h1{
+    color: rgb(227, 55, 7);
+}
+
+/* background properties */
+
+/* https://picsum.photos/200/300 */
+
+#div1{
+    width: 1000px;
+    height: 400px;
+    /* background-image: url("/images/image1.png"); */
+    background-image: url("https://picsum.photos/200/300");
+    background-size: auto;
+    /* background-repeat:no-repeat ; */
+    background-repeat: repeat-x;
+}
+
+#para1{
+color: #006f62;
+font-size: 24px;
+font-style: italic;
+font-weight: bolder;
+font-variant: small-caps;
+}
+
+#para2{
+    font: italic normal bold 32px arial; 
+    color: crimson;
+
+}
+
+#div2{
+    background-color: aquamarine;
+    width: 800px;
+    height: fit-content;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 24px;
+}

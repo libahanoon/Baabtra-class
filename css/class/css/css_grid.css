@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto auto auto;
+    background-color: blue;
+    padding: 50px;
+}
+
+.container div {
+    padding: 10px;
+    
+}
+
+.item {
+    background: #0b6b66;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+}
+
+.item img {
+    width: 150px;
+
+}

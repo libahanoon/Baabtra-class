@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elements and pseudo-classes</title>
+    <style>
+        #heading1::first-letter {
+            color: blue;
+            font-size: 35px;
+        }
+
+        p::first-line {
+            color: chocolate;
+            font-size: 30px;
+        }
+
+        #input1::placeholder {
+            color: aqua;
+            font-style: italic;
+            font-size: 24px;
+        }
+
+        .head:hover{
+            color: coral;
+            background-color: blanchedalmond;
+            font-size: 40px;
+        }
+
+        #input2:focus{
+            border-color: rgb(35, 192, 203);
+            background-color: rgb(137, 184, 67);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading1">Pseudo-elements</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut enim ipsam assumenda praesentium, totam
+        asperiores consequatur sunt reprehenderit dolores quae distinctio neque libero necessitatibus incidunt sit
+        laborum sed odit adipisci dicta. Asperiores perspiciatis tempore esse atque quam consectetur adipisci facere
+        neque, fuga odio animi veritatis vel ratione aliquam sequi ullam? Soluta iusto reprehenderit aspernatur nesciunt
+        esse tempore vel natus labore recusandae, cum assumenda harum repellat velit quisquam maiores nemo veritatis a
+        voluptates. Enim, quos aperiam magni incidunt nihil id quaerat. Ut exercitationem, enim aspernatur atque nam
+        eaque doloribus veritatis similique quas amet, minima laboriosam totam eum, alias quibusdam culpa!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio eius ab sunt veritatis voluptatem?
+
+    </p>
+    <input id="input1" type="text" placeholder="enter name">
+
+    <h1>pseudo-class</h1>
+    <h1 class="head">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, corporis </h1>
+    <input id="input2" type="text">
+</body>
+
+</html>

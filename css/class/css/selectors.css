@@ -1,0 +1,55 @@
+.para{
+    color: rgb(164, 95, 11);
+    font-size: 28px;
+}
+ 
+.bg1{
+    background-color: aquamarine;
+}
+
+.bg2{
+    background-color: rgb(234, 50, 212);
+}
+
+.text1{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text2{
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+#heading{
+    color: crimson;
+    font-size: 50px;
+}
+
+#para1{
+    color: rgb(127, 190, 33);
+    font-size: 28px;
+}
+
+#para1 > span{
+    /* color: orange; */
+    color: inherit; 
+    font-size: inherit;
+}
+
+input[type="text"]{
+    color: darkviolet;
+    font-size: 30px;
+}
+
+h1,h2,span,p{
+    font-variant: small-caps;
+}
+
+img[alt="image1"]{
+    color: red;
+    font-size: 30px;
+}
+
+
