@@ -1,0 +1,67 @@
+.picture {
+    width: 99%;
+    float: unset;
+    margin-top: 0px;
+    margin-right: 0px;
+    height: 400px;
+    overflow: scroll;
+    
+}
+.content-head {
+    background-color: rgb(26, 46, 76);
+    color: white;
+    /* font-size: 50px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 500; */
+    border: none;
+   overflow: scroll;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.about {
+    width: 97%;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    margin-top: 0px;
+    color: rgb(26, 46, 76);
+    border: 0ch;
+    text-align: center;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(26, 46, 76);
+    margin-bottom: 150px;
+}
+
+.office-image {
+   width: 300px;
+   height: 200px;
+}
+.grid-calicut{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.life {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+.heading {
+    text-decoration: solid;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 10px 10px 20px rgb(26, 46, 76);
+}
