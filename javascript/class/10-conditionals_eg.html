@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="setTemperature()">check temperature</button>
+
+
+
+    <script>
+        function setTemperature() {
+            // temperature = 22
+            temperature = Number(prompt('enter a temperature'))
+            if (temperature > 30) {
+                console.log("turn on the air conditioner");
+            }
+            else if (temperature >= 20 && temperature <= 30) {
+                console.log('set to normal room temperature');
+
+            }
+            else {
+                console.log('turn on heater');
+            }
+        }
+
+        eventType = "movie"
+        switch (eventType) {
+            case 'movie': console.log('ticket price for movie is $20');
+                break;
+            case 'sports': console.log('ticket price for sports is $10');
+                break;
+            case 'festivel': console.log('ticket price for festivel is $15');
+                break;
+            default:
+                console.log('event type not specified');
+        }
+
+
+    </script>
+</body>
+
+</html>

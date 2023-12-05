@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Functions</h1>
+    <button onclick="add()">add numbers</button>
+
+    <script>
+        a = 10
+        b = 20
+        sum = a + b
+        console.log(sum);
+
+        a = 40
+        b = 30
+        sum = a + b
+        console.log(sum);
+
+        // function functionName(parameter1, parameter2, ...) {
+        //     code to be executed
+        // }
+        // function invocation or function call
+        // functionName()
+
+        // function greet() {
+        //     console.log("hello good evening !");
+        // }
+
+        // greet()
+
+        function greet(name, age) {
+            console.log(`hello ${name} good evening ! age is ${age}`);
+        }
+
+        greet("liba", 22)
+
+        function add(num1, num2) {
+            a = Number(prompt("enter number 1"));
+            b = Number(prompt("enter number 2"));
+            sum = a + b
+            console.log(`${a} + ${b} = ${sum}`);
+        }
+
+        // add(30, 20);
+
+        // a = Number(prompt("enter number 1"));
+        // b = Number(prompt("enter number 2"));
+        // add(a, b);
+    </script>
+
+</body>
+
+</html>
