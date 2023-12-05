@@ -1,0 +1,49 @@
+#header_container {
+  background-color: #3a5a9e;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+ 
+}
+
+.birthday {
+  justify-content: left;
+  float: left;
+  display: block;
+}
+
+.gender {
+ float: left;
+ 
+
+}
+
+form{
+  margin-right: 20px;
+}
+
+
+
+/* @media (max-width: 991px) {
+  #login_form_email,
+  #login_form_password,
+  #login_form_login {
+    background: #ffffff;
+    color: #808080;
+  }
+  #left_container {
+    text-align: center;
+  }
+  #footer_container {
+    background-color: white;
+  }
+  .bgclr {
+    background: linear-gradient(#ffffff, #edf0f5);
+  }
+}  */
